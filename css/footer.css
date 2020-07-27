@@ -19,7 +19,7 @@ footer {
 	z-index: auto;
 }
 
-.footer {
+.footer_copyright {
 	margin: 0 auto;
 	padding: 0;
 	display: flex;
@@ -30,7 +30,7 @@ footer {
 	z-index: 1;
 }
 
-.footer > a {
+.footer_copyright > a {
 	font-size: 18px;
 	color: #aaaaaa;
 	display: block;
