@@ -1,0 +1,63 @@
+@import "../common.css";
+@import "../header.css";
+@import "../footer.css";
+@import "../bgimg.css";
+@import "../top.css";
+@import "news.css";
+@import "about.css";
+@import "member.css";
+@import "link.css";
+
+a {
+	text-decoration: none;
+}
+
+.topimage {
+	background-image: url("../../images/topimage.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 1080px;
+	margin-top: -45px;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 1;
+}
+
+.toptitle {
+	background-image: url("../../images/logo.svg");
+	filter: drop-shadow(25px 25px 25px rgba(0, 0, 0, 0.6));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 540px;
+	height: 540px;
+	margin: 0 auto;
+	padding-top: 540px;
+	animation-name: title;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 3;
+}
+
+@keyframes fadein {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+	}
+}
+
+@keyframes title {
+from {
+    opacity: 0;
+}
+50% {
+	opacity: 0;
+}
+to {
+    opacity: 1;
+}

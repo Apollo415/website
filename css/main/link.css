@@ -1,0 +1,40 @@
+#link {
+    color: #ffffff;
+    font-family:sans-serif;
+    width: 1200px;
+    border-bottom: 2px solid rgba(102, 205, 170, 0.8);
+  	padding: 150px 0 50px 0;
+}
+#link h1 {
+  text-align: center;
+  margin: 0px auto;
+    font-size: 64px;
+    color: rgb(60, 179, 113);
+    font-family:Impact,sans-serif;
+  border-bottom: 5px solid rgba(102, 205, 170, 0.8);
+  border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+}
+
+.link_list {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.link_contents {
+  position: relative;
+  width: 360px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.link_img {
+  object-fit: contain;
+}
+
+.margin {
+  margin-right: 30px;
+}

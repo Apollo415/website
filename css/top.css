@@ -1,0 +1,10 @@
+.top {
+	display: none;
+	position: fixed;
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
+	right: 50px;
+	bottom: 50px;
+	width: 100px;
+	height: 100px;
+	z-index: 10;
+}

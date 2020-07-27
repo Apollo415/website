@@ -1,0 +1,156 @@
+* {
+	position: relative;
+}
+
+#navi_header {
+	position: fixed;
+	color: #888888;
+	top: 0;
+	display: block;
+	overflow: hidden;
+	width: calc(100vw - 15px);
+	z-index: 10;
+	height: 100%;
+	pointer-events: none;
+	user-select: none;
+}
+
+.header_bg {
+	top: 0;
+	position: fixed;
+	background-color: rgb(36,48,48);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	width: 110%;
+	height: 60px;
+	z-index: 1;
+	box-shadow: 0 1px 0 0 #fff, 0 2px 0 0 #243030;
+}
+
+.navi {
+	transform: translateZ(0);
+	top: 0;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex: none;
+	align-items: center;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	pointer-events: auto;
+}
+
+.cp_navi {
+	display: inline-block;
+	text-align: center;
+}
+
+.logo_link {
+  width: 80px;
+	padding: 2px 40px;
+}
+
+.logo_img {
+  left: 0;
+  width: 80px;
+	height: 56px;
+	background-image: url("../images/logo.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: width .3s,height .3s;
+}
+
+.cp_navi > a {
+	font-size: 18px;
+	color: #aaaaaa;
+	display: block;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.cp_navi > a:hover {
+    /* メニューにカーソルを合わせた時の色 */
+	background-color: rgb(72, 96, 96);
+	color: rgb( 255, 255, 255 );
+}
+
+.header_padding {
+	padding: 0 25px;
+}
+
+.cp_navi > a > .caret {
+	border-top: 4px solid #aaaaaa;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: '';
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+	-webkit-transition: color 0.1s linear;
+	        transition: color 0.1s linear;
+}
+
+.cp_navi > a:hover > .caret {
+	border-top-color: rgb( 255, 255, 255 );
+}
+
+.navi_top, .navi_kit {
+	width: 120px;
+}
+
+.navi_news, .navi_link, .navi_rule {
+	width: 150px;
+}
+
+.navi_about {
+	width: 160px;
+}
+
+.navi_member {
+	width: 180px;
+}
+
+.navi_broadcast_project {
+	width: 270px;
+}
+
+.broadcast_project_popup {
+	font-size: 16px;
+	width: 270px;
+	height: 144px;
+	background-color: rgba(60, 123, 123, 0.9);
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+				 transition: opacity 0.2s;
+	z-index: 100;
+	pointer-events:
+}
+
+.navi_broadcast_project:hover > .broadcast_project_popup {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+.broadcast_project_popup > a {
+	color: #ffffff;
+	display: block;
+	padding: 12px 12px;
+	text-decoration: none;
+}
+.broadcast_project_popup > a:hover {
+	background-color: rgba( 255, 255, 255, 0.25);
+}

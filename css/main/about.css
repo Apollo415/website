@@ -1,0 +1,22 @@
+#about {
+    color: #ffffff;
+    font-family:sans-serif;
+    width: 1200px;
+    border-bottom: 2px solid rgba(200, 140, 40, 0.8);
+  	padding: 150px 0 0 0;
+}
+#about h1 {
+  text-align: center;
+  margin: 0px auto;
+    font-size: 64px;
+    color: orange;
+    font-family:Impact,sans-serif;
+  border-bottom: 5px solid rgba(200, 140, 40, 0.8);
+  border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+}
+
+#about b {
+  text-align: center;
+    color: black;
+    font-family:sans-serif;
+}

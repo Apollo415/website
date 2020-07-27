@@ -1,0 +1,20 @@
+.backimage {
+	position: fixed;
+	background: url("../images/logo.svg") center/540px no-repeat;
+	filter: brightness(96%);
+	width: 99.1%;
+	height: 111.5%;
+	z-index: auto;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+@keyframes fadein {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+	}
+}
